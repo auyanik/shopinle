@@ -7,10 +7,15 @@
  Windows -> https://s3.amazonaws.com/railsinstaller/Windows/railsinstaller-3.3.0.exe
  yükleme bittikten sonra Git için Ad soyad ve mail istiyor girmeyebilirsiniz.
  
- Ardından komut ekranında gem 
-  update --system 
+ Ardından komut ekranında 
+  "gem update --system "
+  bittikten sonra 
+  "bundle install "
  komutunu kullanıp güncelleyelim . 
- Komut ekranında C:\Sites -> yoluna gelip buradan indirdiğiniz shopinle klasörüne girin.
+ Şimdi https://github.com/auyanik/shopinle adresinden dosyayı indirelim.
+ İndirdiğiniz zip dosyasından çıkarıp klasörü "C:\Sites\ " yoluna kopyalayın.
+ 
+ Komut ekranında "cd C:\Sites\shopinle-master" yazıp yoluna gelip buradan indirdiğiniz shopinle girmiş oluruz
  Ardından "rails s"  yada " rails server " yazıp "localhost:3000" adresinin açılmasını sağlamış oluruz
  Komut ekranı açık kalıyor kapatmıyoruz ve aşağı alıyoruz.
  Tarayıcıdan localhost:3000 yazıp girebiliriz.
