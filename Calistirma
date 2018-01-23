@@ -1,0 +1,16 @@
+ -- Windows --
+ Öncelikle, www.rubyinstaller.org adresine girip windows işletim sisteminiz için uygun exe dosyasını indirip kurun.
+ Kontrol için komut ekranında ruby -v yazarak bakabiliriz.
+ 
+ 
+ Şimdi Ruby dili için framework Rails yükleyeceğiz 
+ Windows -> https://s3.amazonaws.com/railsinstaller/Windows/railsinstaller-3.3.0.exe
+ yükleme bittikten sonra Git için Ad soyad ve mail istiyor girmeyebilirsiniz.
+ 
+ Ardından komut ekranında gem 
+  update --system 
+ komutunu kullanıp güncelleyelim . 
+ Komut ekranında C:\Sites -> yoluna gelip buradan indirdiğiniz shopinle klasörüne girin.
+ Ardından "rails s"  yada " rails server " yazıp "localhost:3000" adresinin açılmasını sağlamış oluruz
+ Komut ekranı açık kalıyor kapatmıyoruz ve aşağı alıyoruz.
+ Tarayıcıdan localhost:3000 yazıp girebiliriz.
