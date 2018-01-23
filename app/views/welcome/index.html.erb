@@ -1,0 +1,10 @@
+
+<% i=0 %>
+<% @resimler.each do |element| %>
+	<ul><%=image_tag(element.join, alt: "Example Image")%></ul>
+	
+	<ul><%= @aciklamalar.at(i)	%></ul>
+	<ul><%= @fiyatlar_ilk.at(i)	%></ul>
+	<ul><%= @fiyatlar_son.at(i)	%></ul>
+	<% i=i+1 %>
+<% end %>
